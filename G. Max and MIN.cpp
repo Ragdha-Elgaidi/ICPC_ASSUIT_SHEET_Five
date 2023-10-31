@@ -4,6 +4,7 @@
 #include <cmath>
 
 using namespace std;
+
 void MinMax(int arr[], int n)
 {
 	sort(arr, arr + n);
@@ -16,13 +17,11 @@ int main()
 	int n, arr[1000];
 
 	cin >> n;
-
 	
-	
-		for (int i = 0; i < n; i++)
-		{
-			cin >> arr[i];
-		}
+for (int i = 0; i < n; i++)
+{
+  cin >> arr[i];
+}
 	
 	 MinMax(arr, n);
 }
